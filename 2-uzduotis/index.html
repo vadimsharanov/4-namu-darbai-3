@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Max is triju</title>
+</head>
+<style>
+    body,
+    body * {
+        margin: 0;
+        padding: 0;
+        vertical-align: top;
+        box-sizing: border-box;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+    .max-is-triju {
+        width: 350px;
+            display: flex;
+            flex-direction: column;
+            margin-top: 20px;
+            font-size: 20px;
+            padding: 50px;
+            float: left;
+    } 
+
+    label {
+        padding: 5px;
+    }
+
+    input {
+        font-size: 20px;
+        width: 100%;
+
+    }
+    
+    button {
+        font-size: 15px;
+        padding: 5px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        text-align:left;
+        border: 3px solid grey;
+    }
+    h2 {
+        text-align: center;
+
+    }
+
+    </style>
+<body>
+    <main>
+        <div class="max-is-triju">
+        <h2>Didziausias skaicius is triju aprasytu</h2>
+        <div>
+            <label for="1num">Iveskite pirma skaiciu</label>
+            <input id="1num">
+        </div>
+        <div>
+            <label for="2num">Iveskite antra skaiciu</label>
+            <input id="2num">
+        </div>
+        <div>
+            <label for="3num">Iveskite trecia skaiciu</label>
+            <input id="3num">
+        </div>
+
+        <div>
+            <button onclick="func()">do smth</button>
+        </div>
+
+        <div>
+            <label for="rez">Atsakymas</label>
+            <input id="rez" disabled>
+        </div>
+        </div>
+    </main>
+    <script src="./maxIsTriju.js"></script>
+</body>
+</html>

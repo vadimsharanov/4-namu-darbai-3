@@ -1,5 +1,5 @@
 "use strict"
-function max2() {
+function func() {
     var a = Number(document.getElementById("pirmas-skaicius").value);
     var b = Number(document.getElementById("antras-skaicius").value);
     if (a > b) {

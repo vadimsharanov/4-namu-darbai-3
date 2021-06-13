@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Namu darbai 3</title>
+    <style>
+        body,
+        body * {
+            margin: 0;
+            padding: 0;
+            vertical-align: top;
+            box-sizing: border-box;
+            font-size: ;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        .max-is-dvieju {
+            width: 350px;
+            display: flex;
+            flex-direction: column;
+            margin-top: 20px;
+            font-size: 20px;
+            padding: 50px;
+            float: left;
+        } 
+
+        label {
+            padding: 5px;
+        }
+
+        input {
+            font-size: 20px;
+        }
+        
+        button {
+            font-size: 15px;
+            padding: 5px;
+            text-align: center;
+            margin-left: 20px;
+            border: 3px solid grey;
+        }
+
+        .max-is-triju {
+            display: flex;
+            flex-direction: column;
+            width: 350px;
+            padding: 50px;
+        }
+    </style>
+</head>
+<body>
+    <main>
+    <div class="max-is-dvieju">
+        <h2 style="text-align: center;">Didziausias skaicius is dvieju aprasytu</h2>
+            <label for="pirmas-skaicius">Iveskite pirma skaiciu </label>
+            <input id="pirmas-skaicius">
+            <label for="antras-skaicius">Iveskite antra skaiciu</label>
+            <input id="antras-skaicius">
+            <div>
+                <button onclick="max2()" style="margin-top: 10px;">do smth</button>
+            </div>
+            <label class="rez1" for="rezultatas1"> Atsakymas:</label>
+            <input id="rez1" disabled>
+    </div>
+    </main>
+    <script src="./maxIsDvieju.js"></script>
+</body>
+</html>

@@ -10,7 +10,7 @@ _29 group JS home work
 
 This project is for educational porpuses only.
 
-Site published at https://vadimsharanov.github.io/3-namu-darbai_3/
+Site published at https://vadimsharanov.github.io/4-namu-darbai-3/
 
 
 „Javascript sąlygos sakiniai“
